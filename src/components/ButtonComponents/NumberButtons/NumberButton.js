@@ -7,7 +7,7 @@ const NumberButton = props => {
 
   return (
     <>
-      <button className='number button' onClick={() => changeTotal()}>
+      <button className='number Button' onClick={() => changeTotal()}>
         {props.numbers}
       </button>
     </>
