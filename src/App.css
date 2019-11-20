@@ -1,22 +1,47 @@
 .container {
-    background-color: #c00025;
-    width: 100%;
-    max-width: 550px;
-    border-radius: 15px;
-    border: 2px solid grey;
-    padding-bottom: 25px;
+  background-color: #c00025;
+  width: 100%;
+  max-width: 550px;
+  border-radius: 15px;
+  border: 2px solid grey;
+  padding-bottom: 25px;
 }
 .display {
-    margin-top: 25px;
-    height: 100px;
-    width: 450px;
-    border-radius: 50px;
-    color: white;
-    background-color: #322c2d;
-    box-shadow: 1px 1px #322c2d;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding-right: 8%;
-    font-size: 5.0rem;
-  }
+  margin-top: 25px;
+  height: 100px;
+  width: 450px;
+  border-radius: 50px;
+  color: white;
+  background-color: #322c2d;
+  box-shadow: 1px 1px #322c2d;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 8%;
+  font-size: 5rem;
+}
+
+.buttonPanel {
+  display: flex;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.rightButtons {
+  width: 25%;
+}
+
+.leftButtons {
+  width: 75%;
+  margin-left: 25px;
+}
+
+.Button {
+  color: white;
+  border-radius: 50%;
+  height: 4.75rem;
+  width: 4.75rem;
+  padding: 10px;
+  font-size: 1.5rem;
+  margin: 0.25rem 1rem;
+}
